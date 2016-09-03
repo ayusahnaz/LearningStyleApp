@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fffff9bf"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="How can well-balanced learners help themselves?\n \nEverybody is sensing sometimes and intuitive sometimes. Your preference for one or the
+other may be strong, moderate, or mild. To be effective as a learner and problem solver, you
+need to be able to function both ways. If you overemphasize intuition, you may miss important
+details or make careless mistakes in calculations or hands-on work; if you overemphasize sensing,
+you may rely too much on memorization and familiar methods and not concentrate enough on
+understanding and innovative thinking."
+            android:id="@+id/textView10"
+            android:textColor="#ff000000"
+            android:padding="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="How can sensing learners help themselves?\n \n
+Sensors remember and understand information best if they can see how it connects to the
+real world. If you are in a class where most of the material is abstract and theoretical, you may
+have difficulty. Ask your instructor for specific examples of concepts and procedures, and find
+out how the concepts apply in practice. If the teacher does not provide enough specifics, try to
+find some in your course text or other references or by brainstorming with friends or classmates."
+            android:id="@+id/textView11"
+            android:textColor="#ff000000"
+            android:padding="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="How can intuitive learners help themselves?\n \n
+Many college lecture classes are aimed at intuitors. However, if you are an intuitor and
+you happen to be in a class that deals primarily with memorization and rote substitution in
+formulas, you may have trouble with boredom. Ask your instructor for interpretations or theories
+that link the facts, or try to find the connections yourself. You may also be prone to careless
+mistakes on test because you are impatient with details and don’t like repetition (as in checking
+your completed solutions). Take time to read the entire question before you start answering and
+be sure to check your results."
+            android:id="@+id/textView12"
+            android:textColor="#ff000000"
+            android:padding="20dp" />
+    </LinearLayout>
+</ScrollView>

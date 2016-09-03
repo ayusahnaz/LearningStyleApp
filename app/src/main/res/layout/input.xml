@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fffff9bf"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="How can well-balanced learners help themselves?\n \nIn most college classes very little visual information is presented: students mainly listen
+to lectures and read material written on chalkboards and in textbooks and handouts. Unfortunately, most people are visual learners, which means that most students do not get nearly
+as much as they would if more visual presentation were used in class. Good learners are capable
+of processing information presented either visually or verbally."
+            android:id="@+id/textView13"
+            android:textColor="#ff000000"
+            android:padding="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="How can visual learners help themselves?\n \n
+If you are a visual learner, try to find diagrams, sketches, schematics, photographs, flow
+charts, or any other visual representation of course material that is predominantly verbal. Ask
+your instructor, consult reference books, and see if any videotapes or CD-ROM displays of the
+course material are available. Prepare a concept map by listing key points, enclosing them in
+boxes or circles, and drawing lines with arrows between concepts to show connections. Colorcode
+your notes with a highlighter so that everything relating to one topic is the same color."
+            android:id="@+id/textView14"
+            android:textColor="#ff000000"
+            android:padding="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="How can verbal learners help themselves?\n \n
+Write summaries or outlines of course material in your own words. Working in groups
+can be particularly effective: you gain understanding of material by hearing classmates’
+explanations and you learn even more when you do the explaining."
+            android:id="@+id/textView15"
+            android:textColor="#ff000000"
+            android:padding="20dp" />
+    </LinearLayout>
+</ScrollView>

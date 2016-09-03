@@ -38,7 +38,7 @@ public class ResultActivity extends Activity {
         text4 = (TextView) findViewById(R.id.textView6);
 
         Button pro = (Button) findViewById(R.id.processing);
-        Button per = (Button) findViewById(R.id.perception);
+        final Button per = (Button) findViewById(R.id.perception);
         Button inp = (Button) findViewById(R.id.input);
         Button und = (Button) findViewById(R.id.understanding);
 
@@ -48,6 +48,7 @@ public class ResultActivity extends Activity {
         int total2  = extras.getInt("REST2");
         int total3  = extras.getInt("REST3");
         int total4  = extras.getInt("REST4");
+
 
         if(total1 <= 3 && total1 >= -3){
             text1.setText("You are fairly well balanced on the two dimensions of that scale");
@@ -120,7 +121,6 @@ public class ResultActivity extends Activity {
         pro.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-//              startActivity(new Intent(ResultActivity.this, Processing.class));
                 Intent myIntent = new Intent(ResultActivity.this, Processing.class);
                 myIntent.putExtra("prowell", prowell);
                 myIntent.putExtra("act", act);
@@ -132,21 +132,33 @@ public class ResultActivity extends Activity {
         per.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                startActivity(new Intent(ResultActivity.this, Perception.class));
+                Intent myIntent = new Intent(ResultActivity.this, Perception.class);
+                myIntent.putExtra("perwell", perwell);
+                myIntent.putExtra("sen", sen);
+                myIntent.putExtra("intv", intv);
+                startActivity(myIntent);
             }
         });
 
         inp.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                startActivity(new Intent(ResultActivity.this, Input.class));
+                Intent myIntent = new Intent(ResultActivity.this, Input.class);
+                myIntent.putExtra("inpwell", inpwell);
+                myIntent.putExtra("vis", vis);
+                myIntent.putExtra("ver", ver);
+                startActivity(myIntent);
             }
         });
 
         und.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                startActivity(new Intent(ResultActivity.this, Understanding.class));
+                Intent myIntent = new Intent(ResultActivity.this, Understanding.class);
+                myIntent.putExtra("undwell", undwell);
+                myIntent.putExtra("seq", seq);
+                myIntent.putExtra("glo", glo);
+                startActivity(myIntent);
             }
         });
 

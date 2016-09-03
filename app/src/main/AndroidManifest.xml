@@ -37,7 +37,28 @@
             android:name=".Processing"
             android:label="@string/pro"
             android:theme="@style/CustomPopUp"
-            android:icon="@drawable/ic_home">
+            android:icon="@drawable/ic_processing">
+        </activity>
+
+        <activity
+            android:name=".Perception"
+            android:label="@string/per"
+            android:theme="@style/CustomPopUp"
+            android:icon="@drawable/ic_perception">
+        </activity>
+
+        <activity
+            android:name=".Input"
+            android:label="@string/per"
+            android:theme="@style/CustomPopUp"
+            android:icon="@drawable/ic_input">
+        </activity>
+
+        <activity
+            android:name=".Understanding"
+            android:label="@string/und"
+            android:theme="@style/CustomPopUp"
+            android:icon="@drawable/ic_understanding">
         </activity>
     </application>
 

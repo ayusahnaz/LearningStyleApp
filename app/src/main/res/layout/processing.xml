@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:fillViewport="true">
 
     <LinearLayout
@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Everybody is active sometimes and reflective sometimes. Your preference for one category or the other may be strong, moderate, or mild. A balance of the two is desirable. If you always act before reflecting you can jump into things prematurely and get into trouble, while if you spend too much time reflecting you may never get anything done.\n How can active learners help themselves? \n If you are an active learner in a class that allows little or no class time for discussion or problem-solving activities, you should try to compensate for these lacks when you study. Study in a group in which the members take turns explaining different topics to each other. Work with others to guess what you will be asked on the next test and figure out how you will answer. You will always retain information better if you find ways to do something with it.\n How can reflective learners help themselves? \n If you are a reflective learner in a class that allows little or not class time for thinking about new information, you should try to compensate for this lack when you study. Don’t simply read or memorize the material; stop periodically to review what you have read and to think of possible questions or applications. You might find it helpful to write short summaries of readings or class notes in your own words. Doing so may take extra time but will enable you to retain the material more effectively"
+            android:text="How can well-balanced learners help themselves?\n \nEverybody is active sometimes and reflective sometimes. Your preference for one category or the other may be strong, moderate, or mild. A balance of the two is desirable. If you always act before reflecting you can jump into things prematurely and get into trouble, while if you spend too much time reflecting you may never get anything done.\n \n "
             android:id="@+id/textView7"
             android:textColor="#ff000000"
             android:padding="20dp" />
@@ -22,15 +22,17 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="LILILI"
+            android:text="How can active learners help themselves? \n \nIf you are an active learner in a class that allows little or no class time for discussion or problem-solving activities, you should try to compensate for these lacks when you study. Study in a group in which the members take turns explaining different topics to each other. Work with others to guess what you will be asked on the next test and figure out how you will answer. You will always retain information better if you find ways to do something with it.\n"
             android:id="@+id/textView8"
-            android:layout_gravity="center_horizontal" />
+            android:textColor="#ff000000"
+            android:padding="20dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="LOLOLO"
+            android:text="How can reflective learners help themselves? \n \nIf you are a reflective learner in a class that allows little or not class time for thinking about new information, you should try to compensate for this lack when you study. Don’t simply read or memorize the material; stop periodically to review what you have read and to think of possible questions or applications. You might find it helpful to write short summaries of readings or class notes in your own words. Doing so may take extra time but will enable you to retain the material more effectively"
             android:id="@+id/textView9"
-            android:layout_gravity="center_horizontal" />
+            android:textColor="#ff000000"
+            android:padding="20dp" />
     </LinearLayout>
 </ScrollView>

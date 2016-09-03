@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fffff9bf"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="How can well-balanced learners help themselves?\n \nMany people who read this description may conclude incorrectly that they are global,
+since everyone has experienced bewilderment followed by a sudden flash of understanding.
+What makes you global or not is what happens before the light bulb goes on. Sequential learners
+may not fully understand the material but they can nevertheless do something with it (like solve
+the homework problems or pass the test) since the pieces they have absorbed are logically
+connected. Strongly global learners who lack good sequential thinking abilities, on the other
+hand, may have serious difficulties until they have the big picture. Even after they have it, they
+may be fuzzy about the details of the subject, while sequential learners may know a lot about
+specific aspects of a subject but may have trouble relating them to different aspects of the same
+subject or to different subjects. "
+            android:id="@+id/textView16"
+            android:textColor="#ff000000"
+            android:padding="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="How can sequential learners help themselves?\n \n
+Most college courses are taught in a sequential manner. However, if you are a sequential
+learner and you have an instructor who jumps around from topic to topic or skips steps, you may
+have difficulty following and remembering. Ask the instructor to fill in the skipped steps, or fill
+them in yourself by consulting references. When you are studying, take the time to outline the
+lecture material for yourself in logical order. In the long run doing so will save you time. You
+might also try to strengthen your global thinking skills by relating each new topic you study to
+things you already know. The more you can do so, the deeper your understanding of the topic is
+likely to be. "
+            android:id="@+id/textView17"
+            android:textColor="#ff000000"
+            android:padding="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="How can global learners help themselves?\n \n
+If you are a global learner, just recognizing that you aren’t slow or stupid but simply
+function differently from most of your classmates can help a great deal.4 However, there are
+some steps you can take that may help you get the big picture more quickly. Before you begin to
+study the first section of a chapter in a text, skim through the entire chapter to get an overview.
+Doing so may be time-consuming initially but it may save you from going over and over
+individual parts later. Instead of spending a short time on every subject every night, you might
+find it more productive to immerse yourself in individual subjects for large blocks. Try to relate
+the subject to things you already know, either by asking the instructor to help you see connections
+or by consulting references. Above all, don’t lose faith in yourself; you will eventually
+understand the new material, and once you do your understanding of how it connects to other
+topics and disciplines may enable you to apply it in ways that most sequential thinkers would
+never dream of. "
+            android:id="@+id/textView18"
+            android:textColor="#ff000000"
+            android:padding="20dp" />
+    </LinearLayout>
+</ScrollView>

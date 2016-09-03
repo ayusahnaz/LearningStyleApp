@@ -12,9 +12,6 @@ import android.widget.TextView;
  */
 public class Processing extends Activity {
     TextView tprowell, tact, tref;
-    TextView tperwell, tsen, tint;
-    TextView tinpwell, tvis, tver;
-    TextView tundwell, tseq, tglo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -32,15 +29,6 @@ public class Processing extends Activity {
         tprowell = (TextView) findViewById(R.id.textView7);
         tact = (TextView) findViewById(R.id.textView8);
         tref = (TextView) findViewById(R.id.textView9);
-//        tperwell = (TextView) findViewById(R.id.textView10);
-//        tsen = (TextView) findViewById(R.id.textView11);
-//        tint = (TextView) findViewById(R.id.textView12);
-//        tinpwell = (TextView) findViewById(R.id.textView13);
-//        tvis = (TextView) findViewById(R.id.textView14);
-//        tver = (TextView) findViewById(R.id.textView15);
-//        tundwell = (TextView) findViewById(R.id.textView16);
-//        tseq = (TextView) findViewById(R.id.textView17);
-//        tglo = (TextView) findViewById(R.id.textView18);
 
         Boolean prowell = getIntent().getExtras().getBoolean("prowell");
         Boolean act = getIntent().getExtras().getBoolean("act");
@@ -50,10 +38,14 @@ public class Processing extends Activity {
             tprowell.setVisibility(View.VISIBLE);
             tact.setVisibility(View.GONE);
             tref.setVisibility(View.GONE);
+        } else if (act) {
+            tprowell.setVisibility(View.GONE);
+            tact.setVisibility(View.VISIBLE);
+            tref.setVisibility(View.GONE);
+        } else {
+            tprowell.setVisibility(View.GONE);
+            tact.setVisibility(View.GONE);
+            tref.setVisibility(View.VISIBLE);
         }
-
-//        System.out.println(prowell);
-//        System.out.println(act);
-//        System.out.println(ref);
     }
 }
