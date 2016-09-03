@@ -1,0 +1,162 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ayusahnaz.learningstyleapp.util.ResultActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lala"
+        android:paddingTop="10dp"
+        android:background="#fffff9bf">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Your Learning Style Preferences"
+                android:id="@+id/textView11"
+                android:layout_gravity="center"
+                android:textColor="#ff000000"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Processing Dimension"
+            android:id="@+id/processing"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:clickable="true"
+            android:background="@drawable/button_selector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Active - Reflective"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView3"
+                android:layout_gravity="center"
+                android:textColor="#ff000000"
+                android:gravity="center"
+                android:background="#FFF59D"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perception Dimension"
+            android:id="@+id/perception"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15dp"
+            android:clickable="true"
+            android:background="@drawable/button_selector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Sensing - Intuitive"
+            android:id="@+id/textView13"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView4"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000000"
+                android:padding="10dp"
+                android:background="#FFF59D"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input Dimension"
+            android:id="@+id/input"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:background="@drawable/button_selector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Visual - Verbal"
+            android:id="@+id/textView14"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView5"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000000"
+                android:padding="10dp"
+                android:background="#FFF59D"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Understanding Dimension"
+            android:id="@+id/understanding"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:background="@drawable/button_selector"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Sequential - Global"
+            android:id="@+id/textView15"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView6"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000000"
+                android:padding="10dp"
+                android:background="#FFF59D"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+    </LinearLayout>
+</ScrollView>

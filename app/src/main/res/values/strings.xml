@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LearningStyleApp</string>
+    <string name="action_settings">Setting</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="text1">Text1</string>
+    <string name="pro">Processing</string>
+    <string name="per">Perception</string>
+    <string name="inp">Input</string>
+    <string name="und">Understanding</string>
+
+</resources>

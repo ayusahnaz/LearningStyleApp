@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fffff9bf"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:id="@+id/layout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Instruction: Please choose the most suitable one with yourself"
+            android:id="@+id/textView2"
+            android:textSize="15dp"
+            android:textColor="#ff000000"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. I understand something better after I..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) try it out."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) think it through."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. I would rather be considered..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) realistic."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) innovative."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. When I think about what I did yesterday, I am most likely to get..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) a picture."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) words."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup4">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. I tend to..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) understand details of a subject but may be fuzzy about its overall structure."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) understand the overall structure but may be fuzzy about details."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. When I am learning something new, it helps me to..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) talk about it."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton5b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) think about it."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup6">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. If I were a teacher, I would rather teach a course..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) that deals with facts and real life situations."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) that deals with ideas and theories."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup7">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. I prefer to get new information in..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton7a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) pictures, diagrams, graphs, or maps."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton7b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) written directions or verbal information."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup8">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8. Once I understand..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton8a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) all the parts, I understand the whole thing."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton8b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) the whole thing, I see how the parts fit."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup9">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9. In a study group working on difficult material, I am more likely to..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton9a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) jump in and contribute ideas."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton9b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) sit back and listen."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10. I find it easier..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton10a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) to learn facts."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton10b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) to learn concepts."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup11">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11. In a book with lots of pictures and charts, I am likely to..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton11a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) look over the pictures and charts carefully."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton11b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) focus on the written text."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup12">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12. When I solve math problems..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton12a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) I usually work my way to the solutions one step at a time."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton12b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) I often just see the solutions but then have to struggle to figure out the steps to get to them."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup13">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13. In classes I have taken..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton13a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) I have usually gotten to know many of the students."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton13b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) I have rarely gotten to know many of the students.
+"
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup14">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14. In reading nonfiction, I prefer..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton14a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) something that teaches me new facts or tells me how to do something."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton14b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) something that gives me new ideas to think about."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup15">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15. I like teachers..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton15a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) who put a lot of diagrams on the board."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton15b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) who spend a lot of time explaining."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup16">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="16. When I'm analyzing a story or a novel..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton16a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) I think of the incidents and try to put them together to figure out the themes."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton16b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) I just know what the themes are when I finish reading and then I have to go back and find the incidents that demonstrate them."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup17">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="17. When I start a homework problem, I am more likely to..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton17a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) start working on the solution immediately."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton17b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) try to fully understand the problem first."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup18">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="18. I prefer the idea of..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton18a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) certainty."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton18b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) theory."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup19">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="19. I remember best..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton19a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) what I see."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton19b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) what I hear."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup20">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20. It is more important to me that an instructor..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton20a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) lay out the material in clear sequential steps."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton20b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) give me an overall picture and relate the material to other subjects."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup21">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21. I prefer to study..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton21a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) in a study group."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton21b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) alone."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup22">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="22. I am more likely to be considered..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton22a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) careful about the details of my work."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton22b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) creative about how to do my work."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup23">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="23. When I get directions to a new place, I prefer..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton23a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) a map."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton23b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) written instructions."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup24">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="24. I learn..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton24a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) at a fairly regular pace. If I study hard, I'll 'get it.'"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton24b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) in fits and starts. I'll be totally confused and then suddenly it all 'clicks.'"
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup25">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="25. I would rather first..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton25a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) try things out."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton25b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) think about how I'm going to do it."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup26">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="26. When I am reading for enjoyment, I like writers to..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton26a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) clearly say what they mean."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton26b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) say things in creative, interesting ways."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup27">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="27. When I see a diagram or sketch in class, I am most likely to remember..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton27a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) the picture."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton27b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) what the instructor said about it."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup28">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="28. When considering a body of information, I am more likely to..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton28a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) focus on details and miss the big picture."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton28b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) try to understand the big picture before getting into the details."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup29">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="29. I more easily remember..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton29a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) something I have done."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton29b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) something I have thought a lot about."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup30">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30. When I have to perform a task, I prefer to..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton30a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) master one way of doing it."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton30b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) come up with new ways of doing it."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup31">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="31. When someone is showing me data, I prefer..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton31a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) charts or graphs."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton31b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) text summarizing the results."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup32">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="32. When writing a paper, I am more likely to..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton32a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) work on (think about or write) the beginning of the paper and progress forward."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton32b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) work on (think about or write) different parts of the paper and then order them."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup33">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="33. When I have to work on a group project, I first want to..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton33a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) have 'group brainstorming' where everyone contributes ideas."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton33b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) brainstorm individually and then come together as a group to compare ideas."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup34">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="34. I consider it higher praise to call someone..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton34a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) sensible."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton34b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) imaginative."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup35">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="35. When I meet people at a party, I am more likely to remember..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton35a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) what they looked like."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton35b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) what they said about themselves."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup36">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="36. When I am learning a new subject, I prefer to..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton36a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) stay focused on that subject, learning as much about it as I can."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton36b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) try to make connections between that subject and related subjects."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup37">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="37. I am more likely to be considered..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton37a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) outgoing."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton37b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) reserved."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup38">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="38. I prefer courses that emphasize..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton38a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) concrete material (facts, data)."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton38b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) abstract material (concepts, theories)."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup39">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="39. For entertainment, I would rather..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton39a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) watch television."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton39b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) read a book."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup40">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="40. Some teachers start their lectures with an outline of what they will cover. Such outlines are..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton40a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) somewhat helpful to me."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton40b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) very helpful to me."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup41">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="41. The idea of doing homework in groups, with one grade for the entire group,..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton41a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) appeals to me."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton41b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) does not appeal to me."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup42">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="42. When I am doing long calculations,..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton42a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) I tend to repeat all my steps and check my work carefully."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton42b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) I find checking my work tiresome and have to force myself to do it."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup43">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="43. I tend to picture places I have been..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton43a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) easily and fairly accurately."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton43b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) with difficulty and without much detail."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:id="@+id/radiogroup44">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="44. When solving problems in a group, I would be more likely to..."
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:layout_gravity="left"
+                    android:padding="0dp"
+                    android:gravity="left" />
+
+                <RadioButton
+                    android:id="@+id/radioButton44a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(a) think of the steps in the solution process."
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioButton44b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:checked="false"
+                    android:text="(b) think of possible consequences or applications of the solution in a wide range of areas."
+                    android:textSize="15sp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:padding="10dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:id="@+id/btnSubmit"
+                    android:nestedScrollingEnabled="false"
+                    android:onClick="submit"
+                    android:background="@android:color/holo_orange_light" />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
