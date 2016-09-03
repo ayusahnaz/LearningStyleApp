@@ -1671,8 +1671,6 @@
                     android:background="@android:color/holo_orange_light" />
 
             </LinearLayout>
-
     </LinearLayout>
-
 </ScrollView>
 

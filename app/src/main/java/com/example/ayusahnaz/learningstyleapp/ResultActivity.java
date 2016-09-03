@@ -26,10 +26,6 @@ public class ResultActivity extends Activity {
     private Boolean undwell, seq, glo;
 
     TextView text1, text2, text3, text4;
-    TextView tprowell, tact, tref;
-    TextView tperwell, tsen, tint;
-    TextView tinpwell, tvis, tver;
-    TextView tundwell, tseq, tglo;
 
 
     @Override
@@ -41,54 +37,11 @@ public class ResultActivity extends Activity {
         text3 = (TextView) findViewById(R.id.textView5);
         text4 = (TextView) findViewById(R.id.textView6);
 
-        tprowell = (TextView) findViewById(R.id.textView7);
-        tact = (TextView) findViewById(R.id.textView8);
-        tref = (TextView) findViewById(R.id.textView9);
-//        tperwell = (TextView) findViewById(R.id.textView10);
-//        tsen = (TextView) findViewById(R.id.textView11);
-//        tint = (TextView) findViewById(R.id.textView12);
-//        tinpwell = (TextView) findViewById(R.id.textView13);
-//        tvis = (TextView) findViewById(R.id.textView14);
-//        tver = (TextView) findViewById(R.id.textView15);
-//        tundwell = (TextView) findViewById(R.id.textView16);
-//        tseq = (TextView) findViewById(R.id.textView17);
-//        tglo = (TextView) findViewById(R.id.textView18);
-
         Button pro = (Button) findViewById(R.id.processing);
         Button per = (Button) findViewById(R.id.perception);
         Button inp = (Button) findViewById(R.id.input);
         Button und = (Button) findViewById(R.id.understanding);
 
-        pro.setOnClickListener(new View.OnClickListener(){
-           @Override
-           public void onClick(View v){
-               if(prowell==true){
-                    tprowell.setVisibility(true);
-               }
-               startActivity(new Intent(ResultActivity.this, Processing.class));
-           }
-        });
-
-        per.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                startActivity(new Intent(ResultActivity.this, Perception.class));
-            }
-        });
-
-        inp.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                startActivity(new Intent(ResultActivity.this, Input.class));
-            }
-        });
-
-        und.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                startActivity(new Intent(ResultActivity.this, Understanding.class));
-            }
-        });
 
         Bundle extras = getIntent().getExtras();
         int total1  = extras.getInt("REST1");
@@ -163,6 +116,40 @@ public class ResultActivity extends Activity {
             text4.setText("You have a very strong preference for Global dimension. You may have real difficulty learning in an environment which does not support that preference");
             glo = true;
         }
+
+        pro.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+//              startActivity(new Intent(ResultActivity.this, Processing.class));
+                Intent myIntent = new Intent(ResultActivity.this, Processing.class);
+                myIntent.putExtra("prowell", prowell);
+                myIntent.putExtra("act", act);
+                myIntent.putExtra("ref", ref);
+                startActivity(myIntent);
+            }
+        });
+
+        per.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(ResultActivity.this, Perception.class));
+            }
+        });
+
+        inp.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(ResultActivity.this, Input.class));
+            }
+        });
+
+        und.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                startActivity(new Intent(ResultActivity.this, Understanding.class));
+            }
+        });
+
     }
 }
 

@@ -9,6 +9,13 @@
         <dex dex="/Users/ayusahnaz/Desktop/LearningStyleApp/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-c17123777cff5c68f3981c0711a48ae71590f908.jar" />
     </item>
     <item
+        jar="/Users/ayusahnaz/LearningStyleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/ayusahnaz/LearningStyleApp/app/build/intermediates/pre-dexed/debug/classes-36c3bd600332ab4586d770b6ceb760b7c14b7d3d.jar" />
+    </item>
+    <item
         jar="/Users/ayusahnaz/Desktop/LearningStyleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -28,6 +35,20 @@
         revision="21.1.2"
         sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
         <dex dex="/Users/ayusahnaz/Desktop/LearningStyleApp/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-34e6ed1fd7f79d12bbe68f0b41e090ecd99e553e.jar" />
+    </item>
+    <item
+        jar="/Users/ayusahnaz/LearningStyleApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/ayusahnaz/LearningStyleApp/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-bb7fa452419af3c6833ed8a5522c91ae2be16074.jar" />
+    </item>
+    <item
+        jar="/Users/ayusahnaz/LearningStyleApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/ayusahnaz/LearningStyleApp/app/build/intermediates/pre-dexed/debug/classes-bde7b03bbe144a15cdffde28329a3b2425f354b5.jar" />
     </item>
 
 </items>
