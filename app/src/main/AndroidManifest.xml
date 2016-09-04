@@ -7,58 +7,70 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:icon="@drawable/ic_home">
+            android:icon="@drawable/ic_home"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".DisplayMessageActivity"
-            android:label="@string/app_name"
-            android:icon="@drawable/ic_home">
+            android:icon="@drawable/ic_home"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".ResultActivity"
-            android:label="@string/app_name"
-            android:icon="@drawable/ic_home">
+            android:icon="@drawable/ic_home"
+            android:label="@string/app_name" >
         </activity>
-
         <activity
             android:name=".Processing"
+            android:icon="@drawable/ic_processing"
             android:label="@string/pro"
-            android:theme="@style/CustomPopUp"
-            android:icon="@drawable/ic_processing">
+            android:theme="@style/CustomPopUp" >
         </activity>
-
         <activity
             android:name=".Perception"
+            android:icon="@drawable/ic_perception"
             android:label="@string/per"
-            android:theme="@style/CustomPopUp"
-            android:icon="@drawable/ic_perception">
+            android:theme="@style/CustomPopUp" >
         </activity>
-
         <activity
             android:name=".Input"
+            android:icon="@drawable/ic_input"
             android:label="@string/per"
-            android:theme="@style/CustomPopUp"
-            android:icon="@drawable/ic_input">
+            android:theme="@style/CustomPopUp" >
+        </activity>
+        <activity
+            android:name=".Understanding"
+            android:icon="@drawable/ic_understanding"
+            android:label="@string/und"
+            android:theme="@style/CustomPopUp" >
+        </activity>
+        <activity
+            android:name=".TeacherDisplay"
+            android:label="@string/title_activity_teacher_display"
+            android:icon="@drawable/ic_home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <activity
-            android:name=".Understanding"
-            android:label="@string/und"
-            android:theme="@style/CustomPopUp"
-            android:icon="@drawable/ic_understanding">
+            android:name=".TeacherResult"
+            android:label="@string/title_activity_teacher_result"
+            android:icon="@drawable/ic_home">
         </activity>
     </application>
 

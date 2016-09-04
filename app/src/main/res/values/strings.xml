@@ -12,5 +12,8 @@
     <string name="per">Perception</string>
     <string name="inp">Input</string>
     <string name="und">Understanding</string>
+    <string name="title_activity_teacher_display">TeacherDisplay</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_teacher_result">TeacherResult</string>
 
 </resources>

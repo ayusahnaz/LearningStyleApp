@@ -1668,7 +1668,8 @@
                     android:id="@+id/btnSubmit"
                     android:nestedScrollingEnabled="false"
                     android:onClick="submit"
-                    android:background="@android:color/holo_orange_light" />
+                    android:background="@android:color/holo_orange_light"
+                    style="@style/Base.Widget.AppCompat.Button" />
 
             </LinearLayout>
     </LinearLayout>

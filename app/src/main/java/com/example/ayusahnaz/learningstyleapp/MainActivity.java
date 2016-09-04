@@ -25,4 +25,10 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+    public void teacherView(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(this, TeacherDisplay.class);
+        startActivity(intent);
+    }
+
 }

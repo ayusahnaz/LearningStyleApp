@@ -1,0 +1,190 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:focusable="false"
+    android:focusableInTouchMode="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fffff9bf"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:id="@+id/layout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What teaching style do you want to know?"
+            android:id="@+id/teacher"
+            android:textSize="15dp"
+            android:textColor="#ff000000"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:id="@+id/teacherGroup1"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Processing Dimension"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_gravity="left"
+                android:padding="0dp"
+                android:gravity="left" />
+
+            <RadioButton
+                android:id="@+id/teacherButton1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="Active"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/teacherButton1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="Reflective"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:id="@+id/teacherGroup2"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Perception Dimension"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_gravity="left"
+                android:padding="0dp"
+                android:gravity="left" />
+
+            <RadioButton
+                android:id="@+id/teacherButton2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="Sensing"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/teacherButton2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="Intuitive"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:id="@+id/teacherGroup3"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Input Dimension."
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_gravity="left"
+                android:padding="0dp"
+                android:gravity="left" />
+
+            <RadioButton
+                android:id="@+id/teacherButton3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="Visual"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/teacherButton3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="Verbal"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:id="@+id/teacherGroup4"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Understanding Dimension"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_gravity="left"
+                android:padding="0dp"
+                android:gravity="left" />
+
+            <RadioButton
+                android:id="@+id/teacherButton4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="Sequential"
+                android:textSize="15sp" />
+
+            <RadioButton
+                android:id="@+id/teacherButton4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="Global"
+                android:textSize="15sp" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/btnTeacher"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/holo_orange_light" />
+
+    </LinearLayout>
+
+</ScrollView>

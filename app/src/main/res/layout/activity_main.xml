@@ -48,7 +48,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="For Teacher"
-            android:id="@+id/button2"
+            android:id="@+id/teacherView"
+            android:onClick="teacherView"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_orange_light" />
