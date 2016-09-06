@@ -183,7 +183,12 @@
             android:text="Submit"
             android:id="@+id/btnTeacher"
             android:layout_gravity="center_horizontal"
-            android:background="@android:color/holo_orange_light" />
+            android:background="@android:color/holo_orange_light"
+            android:nestedScrollingEnabled="false"
+            android:onClick="teacherView"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            style="@style/Base.Widget.AppCompat.Button" />
 
     </LinearLayout>
 

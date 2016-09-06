@@ -58,19 +58,23 @@
         </activity>
         <activity
             android:name=".TeacherDisplay"
-            android:label="@string/title_activity_teacher_display"
-            android:icon="@drawable/ic_home">
+            android:icon="@drawable/ic_home"
+            android:label="@string/title_activity_teacher_display" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".TeacherResult"
-            android:label="@string/title_activity_teacher_result"
-            android:icon="@drawable/ic_home">
+            android:icon="@drawable/ic_home"
+            android:label="@string/title_activity_teacher_result" >
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:icon="@drawable/ic_home"
+            android:label="@string/title_activity_about" >
         </activity>
     </application>
 

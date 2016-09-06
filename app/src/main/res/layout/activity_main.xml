@@ -42,7 +42,8 @@
             android:layout_marginTop="10dp"
             android:onClick="letsBegin"
             android:background="@android:color/holo_orange_light"
-            android:textColor="#c8000000" />
+            android:textColor="#c8000000"
+            style="@style/Base.Widget.AppCompat.Button" />
 
         <Button
             android:layout_width="match_parent"
@@ -52,15 +53,18 @@
             android:onClick="teacherView"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:background="@android:color/holo_orange_light" />
+            android:background="@android:color/holo_orange_light"
+            style="@style/Base.Widget.AppCompat.Button" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="About"
-            android:id="@+id/button3"
+            android:id="@+id/about"
+            android:onClick="aboutView"
             android:layout_marginTop="10dp"
-            android:background="@android:color/holo_orange_light" />
+            android:background="@android:color/holo_orange_light"
+            style="@style/Base.Widget.AppCompat.Button" />
 
     </LinearLayout>
 

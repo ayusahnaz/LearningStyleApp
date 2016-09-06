@@ -37,7 +37,8 @@
             android:layout_marginRight="10dp"
             android:textSize="15dp"
             android:clickable="true"
-            android:background="@drawable/button_selector"/>
+            style="@style/Base.Widget.AppCompat.Button"
+            android:background="@android:color/holo_orange_light" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -45,7 +46,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Active - Reflective"
             android:id="@+id/textView12"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp" />
 
         <TextView
                 android:layout_width="match_parent"
@@ -70,7 +72,8 @@
             android:layout_marginRight="10dp"
             android:textSize="15dp"
             android:clickable="true"
-            android:background="@drawable/button_selector"/>
+            android:background="@android:color/holo_orange_light"
+            style="@style/Base.Widget.AppCompat.Button" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -78,7 +81,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Sensing - Intuitive"
             android:id="@+id/textView13"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp" />
 
         <TextView
                 android:layout_width="match_parent"
@@ -103,7 +107,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:clickable="true"
-            android:background="@drawable/button_selector"/>
+            android:background="@android:color/holo_orange_light"
+            style="@style/Base.Widget.AppCompat.Button" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -111,7 +116,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Visual - Verbal"
             android:id="@+id/textView14"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp" />
 
         <TextView
                 android:layout_width="match_parent"
@@ -135,8 +141,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:clickable="true"
-            android:background="@drawable/button_selector"
-            android:textSize="15dp" />
+            android:background="@android:color/holo_orange_light"
+            android:textSize="15dp"
+            style="@style/Base.Widget.AppCompat.Button" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -144,7 +151,8 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Sequential - Global"
             android:id="@+id/textView15"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp" />
 
         <TextView
                 android:layout_width="match_parent"
