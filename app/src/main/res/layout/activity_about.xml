@@ -23,7 +23,7 @@
             android:paddingBottom="5dp" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="LearningStyleApp is a simple android mobile application that can be utilized as a learning and teaching guideline. The learning style is based on Felder Silverman Learning Style Model (FSLM). It has four main dimension which are Processing, Perception, Input and Understanding."
@@ -34,7 +34,7 @@
             android:padding="5dp" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="The learning style is based on Felder Silverman Learning Style Model (FSLM). It has four main dimension which are Processing, Perception, Input and Understanding."
@@ -55,7 +55,7 @@
             android:paddingLeft="5dp" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="How does the student prefer to process information: actively— through engagement in physical activity or discussion, or reflectively— through introspection?"
@@ -71,16 +71,14 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Active"
             android:id="@+id/textView27"
-            android:layout_gravity="left"
-            android:layout_marginLeft="20dp" />
+            android:layout_gravity="left" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="o Active learners tend to retain and understand information best by doing something active with it—discussing or applying it or explaining it to others. \no “Let’s try it out and see how it works” is an active learner’s phrase \no Active learners tend to like group work \no Sitting through lectures without getting to do anything physical but take notes is hard."
             android:id="@+id/textView29"
-            android:layout_marginLeft="20dp"
             android:layout_marginBottom="5dp"
             android:background="#FFF59D"
             android:padding="5dp" />
@@ -90,16 +88,14 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Reflective"
-            android:id="@+id/textView28"
-            android:layout_marginLeft="20dp" />
+            android:id="@+id/textView28" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="o Reflective learners prefer to think about it quietly first \no “Let’s think it through first” is the reflective learner’s response \no Prefer working alone \no Sitting through lectures without getting to do anything physical but take notes is hard"
             android:id="@+id/textView30"
-            android:layout_marginLeft="20dp"
             android:layout_marginBottom="5dp"
             android:background="#FFF59D"
             android:padding="5dp" />
@@ -116,7 +112,7 @@
             android:paddingLeft="5dp" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="What type of information does the student preferentially perceive: sensory (external)—sights, sounds, physical sensations, or intuitive (internal)—possibilities, insights, hunches? "
@@ -130,16 +126,14 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Sensing"
-            android:id="@+id/textView32"
-            android:layout_marginLeft="20dp" />
+            android:id="@+id/textView32" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="o Sensing learners tend to like learning facts \no Sensors often like solving problems by well-established methods and dislike complications and surprises \no Sensors tend to be patient with details and good at memorizing facts and doing hands-on (laboratory) work \no Sensors tend to be more practical and careful than intuitors \no Sensors don’t like courses that have no apparent connection to the real world"
             android:id="@+id/textView33"
-            android:layout_marginLeft="20dp"
             android:layout_marginBottom="5dp"
             android:background="#FFF59D"
             android:padding="5dp" />
@@ -149,16 +143,14 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Intuitive"
-            android:id="@+id/textView34"
-            android:layout_marginLeft="20dp" />
+            android:id="@+id/textView34" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="o Intuitive learners often prefer discovering possibilities and relationships. \no Intuitors like innovation and dislike repetition \no Intuitors may be better at grasping new concepts and are often more comfortable than sensors with abstractions and mathematical formulations \no Intuitors tend to work faster and to be more innovative than sensors \no Intuitors don’t like “plug-and-chug” courses that involve a lot of memorization and routine calculations."
             android:id="@+id/textView35"
-            android:layout_marginLeft="20dp"
             android:background="#FFF59D"
             android:padding="5dp" />
 
@@ -174,7 +166,7 @@
             android:paddingLeft="5dp" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Through which sensory channel is external information most effectively perceived: visual—pictures, diagrams, graphs, demonstrations, or auditory— words, sounds? "
@@ -188,16 +180,14 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Visual"
-            android:id="@+id/textView39"
-            android:layout_marginLeft="20dp" />
+            android:id="@+id/textView39" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="o Visual learners remember best what they see—pictures, diagrams, flow charts, time lines, films, and demonstrations"
             android:id="@+id/TextView40"
-            android:layout_marginLeft="20dp"
             android:layout_marginBottom="5dp"
             android:background="#FFF59D"
             android:padding="5dp" />
@@ -207,16 +197,14 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Verbal"
-            android:id="@+id/textView41"
-            android:layout_marginLeft="20dp" />
+            android:id="@+id/textView41" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="o Verbal learners get more out of words—written and spoken explanations"
             android:id="@+id/textView42"
-            android:layout_marginLeft="20dp"
             android:background="#FFF59D"
             android:padding="5dp" />
 
@@ -232,7 +220,7 @@
             android:paddingLeft="5dp" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="How does the student progress toward understanding: sequentially—in continual steps, or globally—in large jumps, holistically? "
@@ -246,16 +234,14 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Sequential"
-            android:id="@+id/textView45"
-            android:layout_marginLeft="20dp" />
+            android:id="@+id/textView45" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="o Sequential learners tend to gain understanding in linear steps, with each step following logically from the previous one. \no Sequential learners tend to follow logical stepwise paths in finding solutions"
             android:id="@+id/textView46"
-            android:layout_marginLeft="20dp"
             android:layout_marginBottom="5dp"
             android:background="#FFF59D"
             android:padding="5dp" />
@@ -265,16 +251,14 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="Global"
-            android:id="@+id/textView47"
-            android:layout_marginLeft="20dp" />
+            android:id="@+id/textView47" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="o Global learners tend to learn in large jumps, absorbing material almost randomly without seeing connections, and then suddenly “getting it.” \no Global learners may be able to solve complex problems quickly or put things together in novel ways once they have grasped the big picture, but they may have difficulty explaining how they did it."
             android:id="@+id/textView48"
-            android:layout_marginLeft="20dp"
             android:background="#FFF59D"
             android:padding="5dp" />
 

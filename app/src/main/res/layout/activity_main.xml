@@ -23,8 +23,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Everyone has their unique and different learning styles. Let's begin to discover your learning style.
-            Which is yours?"
+            android:text="Everyone has their unique and different learning styles. Let's begin to discover your learning style. Which is yours?"
             android:id="@+id/textView"
             android:textColor="#c8000000"
             android:gravity="center"

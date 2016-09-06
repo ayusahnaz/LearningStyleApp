@@ -49,7 +49,7 @@ public class TeacherDisplay extends Activity {
         String cat= Integer.toString(i);
         cad=cad.concat(cat);
         final int idResource = r.getIdentifier(cad, "id", name);
-        System.out.println(idResource);
+
         final RadioGroup rg = (RadioGroup) findViewById(idResource);
 
         btnTeacher = (Button) findViewById(R.id.btnTeacher);
